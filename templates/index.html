@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Management System</h1>
+
+        <div class="nav">
+            <a href="/add">Add Student</a>
+            <a href="/view">View Students</a>
+            <a href="/search">Search Student</a>
+        </div>
+        <div class="card">
+            <h2>Total Students</h2>
+            <h1>{{ total_students }}</h1>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
