@@ -19,7 +19,8 @@ A web-based Student Management System built using Flask and PostgreSQL.
 * PostgreSQL
 * HTML
 * CSS
-* Jinja2
+* psycopg2
+
 
 ## Project Structure
 
